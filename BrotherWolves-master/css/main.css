@@ -1,0 +1,422 @@
+/*******************
+GENERAL
+********************/
+
+body {
+
+	font-family: 'Berkshire Swash', cursive;
+	color: white;
+}
+
+#home img {
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.wrapper li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: center;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 5%;
+	background: #000;
+
+
+}
+
+/* links */
+a {
+
+	color: #fff;
+	text-decoration: none;
+
+}
+
+img {
+
+	max-width: 100%;
+}
+
+
+
+
+
+/*******************
+HEADING
+********************/
+
+header {
+float: left;
+margin: 0 0 30px 0;
+padding: 5px 0 0 0;
+width: 100%;
+
+}
+
+.menu {
+	list-style-type: none;
+	display: inline;
+	padding: 20px 20px 20px 20px;
+}
+
+
+#logo {
+
+	text-align: center;
+	margin: 0;
+}
+   
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	margin: 15px 0;
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1.5em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+.gig {
+	margin-top: 150px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.bwgig {
+	margin-top: 50px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1em;
+	text-align: center;
+}
+
+header {
+	border-width: 20px;
+}
+
+table.center {
+	margin-left: 445px;
+	margin-right: auto;
+}
+
+.gig_table {
+	border: 2px solid #FFF;
+}
+/*******************
+NAVIGATION
+********************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+
+}
+
+/*******************
+FOOTER
+********************/
+
+.footer {
+	font-size: 0.75em;
+	vertical-align: left;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	background-color: #484848;
+}
+
+.footer a {
+	display: inline;
+}
+
+.socialIcon {
+width: 30px;
+height: 30px;
+margin: 0 5px;
+
+}
+
+/*******************
+BUTTON
+********************/
+
+.button {
+	margin-top: 25px;
+	margin-left: 520px;
+	background-color: #484848;
+	}
+
+input[type=submit] {
+	padding: 5px 15px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+/*******************
+General: Centering
+********************/
+
+#home {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#home li {
+	margin: 2.5%;
+	background-color: #000;
+	color: #484848;
+}
+/*******************
+Page :Music
+********************/
+
+#sounds h1,
+#money h2,
+#dontwait h3 {
+font-size:2em 
+}
+
+#sounds p,
+#money p,
+#dontwait p, {
+	font-size: .8em
+}
+
+
+
+/*******************
+Page :Shows
+********************/
+
+.showbox {
+	/*max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 5%;
+	color: grey;
+	float: center;
+	text-decoration: none;
+	list-style: none;*/
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+
+}
+
+#moon img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+
+
+/*******************
+Page :Merch and Contact
+********************/
+
+#showpics {
+
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 5%;
+	background: #000; 
+}
+
+#merchorder  {
+
+	/*color: #ccc;
+	max-width: 95%;*/
+	display: block;
+	margin: 0;
+	padding: 30px 0;
+
+}
+
+/********************************************
+*
+* 2nd try form CSS
+*
+********************************************/
+
+input,
+textarea,
+button {
+	padding: 10px;
+	width: 100%;
+	box-sizing:border-box;
+}
+
+label {
+	margin-bottom: 20px;
+
+}
+
+label,
+input,
+textarea {
+	display: block;
+}
+
+input [type="submit"],
+button {
+	width: auto;
+	display: inline;
+	border: 1px solid #424242;
+}
+
+label input,
+label textarea {
+	margin-top: 10px;
+}
+
+form {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+
+}
+
+
+
+
+/********************************************
+*
+* original form CSS
+*
+********************************************/
+
+form {
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: left;
+	max-width: 641px;
+}
+
+form input	{
+
+	width: 375px;
+	display: inline-block;
+	border: 0px solid #999;
+	height: 25px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+fieldset {
+	max-width: 90%;
+
+}
+
+fieldset label {
+
+} 
+
+
+
+
+/********************************************
+*
+* 3rd try form CSS
+*
+********************************************/
+.backEndForm {
+	margin-right: 0px;
+}
+
+.backEndForm label {
+
+	float:left;
+	width: 95%;
+	
+}
+
+fieldset {
+	/*width: 95%;
+	max-width: 640px*/
+}
+
+
+/*******************
+COLOR
+********************/
+
+/* site body */
+body {
+
+	background-color: #000;
+}
+/* black site header */
+header {
+
+	background: #000;
+	border-color: #fff;
+}
+/* navigation backround on mobile [grey] */
+nav {
+
+	background: #484848;
+}
+/*logo text*/
+h1, h2 {
+
+	color: #fff;
+}
+/* nav links */
+
+nav a, nav a:visited {
+
+	color: #b0b0b0;
+
+}
+
+
+/* selected nav links */
+
+nav a.selected, nav a:hover {
+
+	color:#e6e6e6;
+}
+
+footer { 
+	padding-bottom: 2em;
+	
+}
+
+
+
